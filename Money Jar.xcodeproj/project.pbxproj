@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC3946CB266B098F00400850 /* Money_JarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3946CA266B098F00400850 /* Money_JarApp.swift */; };
+		CC3946CD266B098F00400850 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3946CC266B098F00400850 /* ContentView.swift */; };
+		CC3946CF266B099200400850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3946CE266B099200400850 /* Assets.xcassets */; };
+		CC3946D2266B099200400850 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3946D1266B099200400850 /* Preview Assets.xcassets */; };
+		CC3946DD266B099200400850 /* Money_JarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3946DC266B099200400850 /* Money_JarTests.swift */; };
+		CC3946E8266B099200400850 /* Money_JarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3946E7266B099200400850 /* Money_JarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC3946D9266B099200400850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3946BF266B098F00400850 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3946C6266B098F00400850;
+			remoteInfo = "Money Jar";
+		};
+		CC3946E4266B099200400850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3946BF266B098F00400850 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3946C6266B098F00400850;
+			remoteInfo = "Money Jar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC3946C7266B098F00400850 /* Money Jar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Jar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3946CA266B098F00400850 /* Money_JarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_JarApp.swift; sourceTree = "<group>"; };
+		CC3946CC266B098F00400850 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC3946CE266B099200400850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC3946D1266B099200400850 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC3946D3266B099200400850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3946D8266B099200400850 /* Money JarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money JarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3946DC266B099200400850 /* Money_JarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_JarTests.swift; sourceTree = "<group>"; };
+		CC3946DE266B099200400850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3946E3266B099200400850 /* Money JarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money JarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3946E7266B099200400850 /* Money_JarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_JarUITests.swift; sourceTree = "<group>"; };
+		CC3946E9266B099200400850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3946C4266B098F00400850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3946D5266B099200400850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3946E0266B099200400850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC3946BE266B098F00400850 = {
+			isa = PBXGroup;
+			children = (
+				CC3946C9266B098F00400850 /* Money Jar */,
+				CC3946DB266B099200400850 /* Money JarTests */,
+				CC3946E6266B099200400850 /* Money JarUITests */,
+				CC3946C8266B098F00400850 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3946C8266B098F00400850 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3946C7266B098F00400850 /* Money Jar.app */,
+				CC3946D8266B099200400850 /* Money JarTests.xctest */,
+				CC3946E3266B099200400850 /* Money JarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3946C9266B098F00400850 /* Money Jar */ = {
+			isa = PBXGroup;
+			children = (
+				CC3946CA266B098F00400850 /* Money_JarApp.swift */,
+				CC3946CC266B098F00400850 /* ContentView.swift */,
+				CC3946CE266B099200400850 /* Assets.xcassets */,
+				CC3946D3266B099200400850 /* Info.plist */,
+				CC3946D0266B099200400850 /* Preview Content */,
+			);
+			path = "Money Jar";
+			sourceTree = "<group>";
+		};
+		CC3946D0266B099200400850 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC3946D1266B099200400850 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC3946DB266B099200400850 /* Money JarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC3946DC266B099200400850 /* Money_JarTests.swift */,
+				CC3946DE266B099200400850 /* Info.plist */,
+			);
+			path = "Money JarTests";
+			sourceTree = "<group>";
+		};
+		CC3946E6266B099200400850 /* Money JarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC3946E7266B099200400850 /* Money_JarUITests.swift */,
+				CC3946E9266B099200400850 /* Info.plist */,
+			);
+			path = "Money JarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3946C6266B098F00400850 /* Money Jar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3946EC266B099200400850 /* Build configuration list for PBXNativeTarget "Money Jar" */;
+			buildPhases = (
+				CC3946C3266B098F00400850 /* Sources */,
+				CC3946C4266B098F00400850 /* Frameworks */,
+				CC3946C5266B098F00400850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Money Jar";
+			productName = "Money Jar";
+			productReference = CC3946C7266B098F00400850 /* Money Jar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC3946D7266B099200400850 /* Money JarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3946EF266B099200400850 /* Build configuration list for PBXNativeTarget "Money JarTests" */;
+			buildPhases = (
+				CC3946D4266B099200400850 /* Sources */,
+				CC3946D5266B099200400850 /* Frameworks */,
+				CC3946D6266B099200400850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3946DA266B099200400850 /* PBXTargetDependency */,
+			);
+			name = "Money JarTests";
+			productName = "Money JarTests";
+			productReference = CC3946D8266B099200400850 /* Money JarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC3946E2266B099200400850 /* Money JarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3946F2266B099200400850 /* Build configuration list for PBXNativeTarget "Money JarUITests" */;
+			buildPhases = (
+				CC3946DF266B099200400850 /* Sources */,
+				CC3946E0266B099200400850 /* Frameworks */,
+				CC3946E1266B099200400850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3946E5266B099200400850 /* PBXTargetDependency */,
+			);
+			name = "Money JarUITests";
+			productName = "Money JarUITests";
+			productReference = CC3946E3266B099200400850 /* Money JarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3946BF266B098F00400850 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CC3946C6266B098F00400850 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					CC3946D7266B099200400850 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CC3946C6266B098F00400850;
+					};
+					CC3946E2266B099200400850 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CC3946C6266B098F00400850;
+					};
+				};
+			};
+			buildConfigurationList = CC3946C2266B098F00400850 /* Build configuration list for PBXProject "Money Jar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3946BE266B098F00400850;
+			productRefGroup = CC3946C8266B098F00400850 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3946C6266B098F00400850 /* Money Jar */,
+				CC3946D7266B099200400850 /* Money JarTests */,
+				CC3946E2266B099200400850 /* Money JarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3946C5266B098F00400850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3946D2266B099200400850 /* Preview Assets.xcassets in Resources */,
+				CC3946CF266B099200400850 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3946D6266B099200400850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3946E1266B099200400850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3946C3266B098F00400850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3946CD266B098F00400850 /* ContentView.swift in Sources */,
+				CC3946CB266B098F00400850 /* Money_JarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3946D4266B099200400850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3946DD266B099200400850 /* Money_JarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3946DF266B099200400850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3946E8266B099200400850 /* Money_JarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC3946DA266B099200400850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC3946C6266B098F00400850 /* Money Jar */;
+			targetProxy = CC3946D9266B099200400850 /* PBXContainerItemProxy */;
+		};
+		CC3946E5266B099200400850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC3946C6266B098F00400850 /* Money Jar */;
+			targetProxy = CC3946E4266B099200400850 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC3946EA266B099200400850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC3946EB266B099200400850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC3946ED266B099200400850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Money Jar/Preview Content\"";
+				DEVELOPMENT_TEAM = R3V9883PB6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Money Jar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.skydev.Money-Jar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC3946EE266B099200400850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Money Jar/Preview Content\"";
+				DEVELOPMENT_TEAM = R3V9883PB6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Money Jar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.skydev.Money-Jar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC3946F0266B099200400850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3V9883PB6;
+				INFOPLIST_FILE = "Money JarTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.skydev.Money-JarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money Jar.app/Money Jar";
+			};
+			name = Debug;
+		};
+		CC3946F1266B099200400850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3V9883PB6;
+				INFOPLIST_FILE = "Money JarTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.skydev.Money-JarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money Jar.app/Money Jar";
+			};
+			name = Release;
+		};
+		CC3946F3266B099200400850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3V9883PB6;
+				INFOPLIST_FILE = "Money JarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.skydev.Money-JarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Money Jar";
+			};
+			name = Debug;
+		};
+		CC3946F4266B099200400850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3V9883PB6;
+				INFOPLIST_FILE = "Money JarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.skydev.Money-JarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Money Jar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3946C2266B098F00400850 /* Build configuration list for PBXProject "Money Jar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3946EA266B099200400850 /* Debug */,
+				CC3946EB266B099200400850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3946EC266B099200400850 /* Build configuration list for PBXNativeTarget "Money Jar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3946ED266B099200400850 /* Debug */,
+				CC3946EE266B099200400850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3946EF266B099200400850 /* Build configuration list for PBXNativeTarget "Money JarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3946F0266B099200400850 /* Debug */,
+				CC3946F1266B099200400850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3946F2266B099200400850 /* Build configuration list for PBXNativeTarget "Money JarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3946F3266B099200400850 /* Debug */,
+				CC3946F4266B099200400850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC3946BF266B098F00400850 /* Project object */;
+}
